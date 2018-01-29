@@ -1,0 +1,15 @@
+[1]to validate email address-
+supriya@supriya:~$ grep -E -o "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}\b" ver.txt > output.txt
+
+[2]to validate phone no-
+supriya@supriya:~/sem3/syspro$ grep -E -o "\b^[\d]{2,4}[- ]?[\d]{3}[- ]?[\d]{3,5}|([0])?(\+\d{1,2}[- ]?)?[789]{1}\d{9}$\b" ver.txt > output.txt
+
+[3] to validate date formate-
+supriya@supriya:~/sem3/syspro$ grep -E -o "^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$" ver1.txt > output.txt
+
+[4] to validate user name-
+supriya@supriya:~/sem3/syspro$ grep -E -o "^[a-z0-9_-]{3,15}$" ver1.txt > output.txt
+
+[5] 
+
+
