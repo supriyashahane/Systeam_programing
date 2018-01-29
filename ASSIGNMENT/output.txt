@@ -1,0 +1,9 @@
+1    2    e    int    24    100000    D
+2    3    c    int    24    3,10,0    D
+3    4    r    int    4    2    D
+4    5    msg    word    14    "Hello"    D
+5    6    msg1    byte    12    "Hello",10,0    D
+6    8    s    Reversed int    4    1    U
+7    9    ad    Reversed word    2    1    U
+8    9    ad    Reversed word    8    1    U
+9    13    main    label    -    -    U
